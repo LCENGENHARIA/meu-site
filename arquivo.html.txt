@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Cirqueira Martins - Prevenção de Incêndios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo de Lucas Cirqueira Martins" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="banner">
+            <h1>Segurança e Confiança em Prevenção Contra Incêndios</h1>
+            <p>Especialista em projetos, laudos e consultoria para sua empresa.</p>
+            <a href="#services" class="btn">Saiba Mais</a>
+        </section>
+        <section id="about" class="about">
+            <h2>Sobre</h2>
+            <p>Engenheiro Civil com especialização em Prevenção e Combate a Incêndios, atuando na elaboração de projetos, laudos técnicos e consultoria.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Serviços</h2>
+            <div class="service-card">
+                <h3>Projetos de Prevenção</h3>
+                <p>Elaboração de projetos completos para aprovação no Corpo de Bombeiros.</p>
+            </div>
+            <div class="service-card">
+                <h3>Laudos Técnicos</h3>
+                <p>Inspeções técnicas detalhadas para sua segurança e conformidade.</p>
+            </div>
+            <div class="service-card">
+                <h3>Sistemas de Combate</h3>
+                <p>Execução de sistemas de hidrantes, extintores e alarmes.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lucas Cirqueira Martins - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
